@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IF=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <p class="title">Выберите уравнение</p>
+    <form action="">
+        <label for="input1">Квадратное</label>
+        <input type="radio" id="input1" name="check" checked>
+        <input onclick="abc()" type="radio" id="input2" name="check">
+        <label for="input2">Биквадратное</label>
+    </form>
+    <p>a =</p>
+    <input type="text" id="input_a"><br>
+    <p>b =</p>
+    <input type="text" id="input_b"><br>
+    <p>c =</p>
+    <input type="text" id="input_c"><br>
+    <button onclick="choose()" id="Enter">Ответ:</button>
+    <p id="resultX"></p>
+</body>
